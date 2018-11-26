@@ -1,0 +1,16 @@
+[package]
+name = "web-api"
+version = "0.1.0"
+authors = ["thebearingedge <contact@timdav.is>"]
+edition = "2018"
+
+[dependencies]
+iron = "0.6.0"
+router = "0.6.0"
+logger = "0.4.0"
+env_logger = "0.6.0"
+chrono = { version = "0.4.6", features = ["serde"] }
+uuid = { version = "0.7.1", features = ["v4", "serde"] }
+serde_derive = "1.0.80"
+serde_json = "1.0.33"
+serde = "1.0.80"
